@@ -1,0 +1,30 @@
+Test Case 01 — Login com credenciais válidas
+
+ID: TC_LOGIN_001
+Módulo: Autenticação
+Prioridade: Alta
+Severidade: Crítica
+Tipo de teste: Funcional
+
+Pré-condições
+
+	•	Usuário deve ter acesso ao site.
+	•	Navegador aberto.
+	•	Conexão com internet.
+
+ Passos para execução
+	1.	Abrir o navegador.
+	2.	Acessar o site: https://www.saucedemo.com
+  3.  Localizar o campo Username.
+	4.	Inserir standard_user.
+	5.	Localizar o campo Password.
+	6.	Inserir secret_sauce.
+	7.	Clicar no botão Login.
+
+ Resultado esperado
+	•	Usuário deve ser redirecionado para a página Products.
+	•	A lista de produtos deve ser exibida.
+	•	O menu do sistema deve estar visível.
+
+ Resultado obtido
+passou ✅
