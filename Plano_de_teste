@@ -1,0 +1,107 @@
+Plano de Testes
+
+ Introdução
+
+Este documento descreve o plano de testes para a aplicação web SauceDemo.
+O objetivo é validar as funcionalidades principais do sistema de e-commerce, garantindo que o comportamento esteja de acordo com o esperado e que possíveis falhas sejam identificadas e documentadas.
+
+
+
+ Objetivo dos Testes
+
+Verificar se as principais funcionalidades do sistema estão funcionando corretamente, incluindo:
+	•	Autenticação de usuários
+	•	Visualização de produtos
+	•	Adição de produtos ao carrinho
+	•	Processo de checkout
+	•	Validação de campos obrigatórios
+
+
+
+ Escopo dos Testes
+
+Funcionalidades testadas
+	•	Login de usuário
+	•	Listagem de produtos
+	•	Adição de itens ao carrinho
+	•	Visualização do carrinho
+	•	Processo de checkout
+
+Funcionalidades fora do escopo
+	•	Testes de performance
+	•	Testes de segurança
+	•	Testes de compatibilidade entre navegadores
+
+
+
+ Tipos de Testes Realizados
+
+Durante a execução dos testes foram aplicados os seguintes tipos de testes:
+	•	Testes funcionais
+	•	Testes negativos
+	•	Testes de validação de campos
+	•	Testes de fluxo de usuário
+
+
+
+ Ambiente de Teste
+
+Sistema testado: SauceDemo
+URL do sistema: https://www.saucedemo.com
+
+Ambiente utilizado:
+	•	Navegador: Google Chrome
+	•	Sistema operacional: Windows
+	•	Tipo de teste: Manual
+
+⸻
+
+ Estratégia de Teste
+
+Os testes foram realizados manualmente simulando o comportamento de um usuário real no sistema.
+
+O processo incluiu:
+	1.	Acesso ao sistema
+	2.	Execução de cenários de login
+	3.	Navegação pela lista de produtos
+	4.	Adição de produtos ao carrinho
+	5.	Realização do processo de checkout
+	6.	Validação das mensagens de erro e comportamento do sistema
+
+
+
+ Critérios de Entrada
+
+Os testes podem ser iniciados quando:
+	•	O sistema estiver disponível
+	•	O ambiente de teste estiver acessível
+	•	As credenciais de acesso estiverem disponíveis
+
+
+
+ Critérios de Saída
+
+Os testes serão considerados concluídos quando:
+	•	Todos os casos de teste planejados forem executados
+	•	Os bugs encontrados forem registrados
+	•	As evidências de teste forem documentadas
+
+
+
+ Riscos
+
+Possíveis riscos durante os testes incluem:
+	•	Instabilidade do ambiente de teste
+	•	Alterações no sistema durante a execução dos testes
+	•	Limitações do ambiente de demonstração
+
+⸻
+
+ Entregáveis
+
+Os seguintes artefatos fazem parte deste projeto:
+	•	Plano de testes
+	•	Casos de teste
+	•	Relatório de bugs
+	•	Evidências de execução de testes
+	•	Consultas SQL utilizadas para validação
