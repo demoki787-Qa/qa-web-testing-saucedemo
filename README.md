@@ -53,6 +53,6 @@ Evidence/
 Durante os testes foram executados diversos cenários de uso do sistema e identificadas possíveis falhas de validação e comportamento inesperado.
 
 ## Autor
-
 jose marcos
+
 Projeto realizado para prática de QA Manual e construção de portfólio profissional.
