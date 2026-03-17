@@ -15,7 +15,7 @@ Pré-condições
  Passos para execução
 	1.	Abrir o navegador.
 	2.	Acessar o site: https://www.saucedemo.com
-  3.  Localizar o campo Username.
+    3.  Localizar o campo Username.
 	4.	Inserir standard_user.
 	5.	Localizar o campo Password.
 	6.	Inserir secret_sauce.
