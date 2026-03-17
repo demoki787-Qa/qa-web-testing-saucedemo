@@ -1,0 +1,20 @@
+ID: TC_LOGIN_002
+Módulo: Autenticação
+Prioridade: Alta
+Tipo: Negativo
+
+ Pré-condições
+	•	Usuário na página de login.
+
+ passos
+1.	Inserir standard_user no campo Username.
+2.	Inserir 123456 no campo Password.
+3.	Clicar em Login.
+
+Resultado esperado
+
+Sistema deve mostrar a mensagem:
+Epic sadface: Username and password do not match any user
+
+Resulta obtido
+passou ✅
