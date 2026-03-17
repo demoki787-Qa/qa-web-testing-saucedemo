@@ -1,0 +1,17 @@
+ID: TC_CART_001
+Módulo: Carrinho
+
+   Pré-condições
+	•	Usuário deve estar logado no sistema.
+
+   Passos
+	1.	Estar na página Products.
+	2.	Selecionar o produto Sauce Labs Backpack.
+	3.	Clicar no botão Add to cart.
+
+   Resultado esperado
+	•	O botão deve mudar para Remove.
+	•	O ícone do carrinho deve mostrar 1 item.
+
+   Resultado obtido
+  passou ✅
