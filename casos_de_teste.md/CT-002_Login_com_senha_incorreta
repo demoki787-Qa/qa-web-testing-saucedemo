@@ -6,7 +6,7 @@ Tipo: Negativo
  Pré-condições
 	•	Usuário na página de login.
 
- passos
+ passos para execução
 1.	Inserir standard_user no campo Username.
 2.	Inserir 123456 no campo Password.
 3.	Clicar em Login.
