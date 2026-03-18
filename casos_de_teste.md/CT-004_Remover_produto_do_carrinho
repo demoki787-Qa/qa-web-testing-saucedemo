@@ -1,0 +1,14 @@
+ID: TC_CART_002
+Módulo: Carrinho
+
+  Pré-condições
+	•	Produto já adicionado ao carrinho.
+
+Passos
+	1.	Clicar no ícone do carrinho.
+	2.	Localizar o produto adicionado.
+	3.	Clicar no botão Remove.
+
+Resultado esperado
+	•	Produto deve ser removido.
+	•	Carrinho deve ficar vazio.
