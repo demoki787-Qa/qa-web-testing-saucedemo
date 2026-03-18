@@ -1,0 +1,17 @@
+ID: TC_CHECKOUT_002
+Tipo: Negativo
+
+🧪 Passos
+	1.	Ir para Checkout.
+	2.	Preencher apenas:
+	•	First Name
+	•	Last Name
+	3.	Deixar Zip Code vazio.
+	4.	Clicar Continue.
+
+Resultado esperado
+Sistema deve mostrar erro:
+(Error: Postal Code is required)
+
+Resultado obtido
+passou ✅
