@@ -1,0 +1,23 @@
+ID: TC_CHECKOUT_001
+Módulo: Checkout
+ 
+Pré-condições
+	•	Usuário logado
+	•	Produto no carrinho
+
+Passos
+	1.	Ir para o carrinho.
+	2.	Clicar em Checkout.
+	3.	Inserir First Name.
+	4.	Inserir Last Name.
+	5.	Inserir Zip Code.
+	6.	Clicar em Continue.
+
+Resultado esperado
+Sistema deve mostrar:
+	•	resumo da compra
+	•	lista de produtos
+	•	valor total
+
+Resultado obtido:
+passou ✅
