@@ -1,0 +1,32 @@
+Título: Campo First Name aceita valores numéricos no checkout
+Severidade: Média
+Prioridade: Média
+
+Ambiente
+		Sistema: SauceDemo
+		Navegador: Google Chrome
+		Tipo de teste: Manual
+
+
+
+Passos para reproduzir
+	1.	Acessar o site SauceDemo
+	2.	Fazer login com usuário válido
+	3.	Adicionar um produto ao carrinho
+	4.	Abrir o carrinho
+	5.	Clicar em Checkout
+	6.	Preencher os campos:
+
+	•	First Name: 123456
+	•	Last Name: Teste
+	•	Zip Code: 12345
+
+	7.	Clicar em Continue
+
+
+Resultado atual
+O sistema aceita valores numéricos no campo First Name e permite continuar o processo de checkout.
+
+Resultado esperado
+O campo First Name deveria aceitar apenas letras, pois representa o nome do usuário.
+O sistema deveria exibir uma mensagem informando que o valor inserido é inválido.
