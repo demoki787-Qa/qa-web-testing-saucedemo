@@ -1,0 +1,33 @@
+Título: Campo Zip Code aceita qualquer caractere no checkout
+Severidade: Média
+Prioridade: Média
+
+
+
+Ambiente
+	Sistema: SauceDemo
+	Navegador: Google Chrome
+	Tipo de teste: Manual
+
+
+Passos para reproduzir
+	1.	Acessar o site SauceDemo
+	2.	Fazer login com usuário válido
+	3.	Adicionar qualquer produto ao carrinho
+	4.	Ir para o carrinho
+	5.	Clicar em Checkout
+	6.	Preencher os campos:
+
+	•	First Name: Teste
+	•	Last Name: QA
+	•	Zip Code: @@@@@@
+
+	7.	Clicar em Continue
+
+
+Resultado atual
+O sistema aceita caracteres especiais no campo Zip Code e permite continuar o processo de checkout.
+
+Resultado esperado
+O campo Zip Code deveria aceitar apenas números ou um formato válido de código postal.
+O sistema deveria exibir uma mensagem de erro informando que o valor inserido é inválido.
